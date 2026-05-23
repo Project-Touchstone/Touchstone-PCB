@@ -11,6 +11,13 @@
 *fp-lib-table*
 *.lck
 
+# SPICE simulation files
+*.asc
+*.log
+*.op.raw
+*.raw
+*.out
+
 # Local project settings
 *.kicad_prl
 
