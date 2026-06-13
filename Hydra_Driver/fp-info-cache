@@ -1,4 +1,4 @@
-26449258111643274
+26451066001426236
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -103991,6 +103991,13 @@ CONN_CCSH-W10R-04TR-BK-A_ADA
 0
 6
 6
+Touchstone
+DBV5
+
+SN74LVC1G80DBVR 
+0
+5
+5
 Touchstone
 ES2A-L Diode
 

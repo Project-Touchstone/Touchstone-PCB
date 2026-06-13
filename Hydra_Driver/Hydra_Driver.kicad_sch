@@ -3712,46 +3712,45 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SN74LVC1G373DCKR:SN74LVC1G373DCKR"
+		(symbol "SN74LVC1G80DBVR:SN74LVC1G80DBVR"
 			(pin_names
-				(offset 1.016)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -12.7 13.7 0)
+				(at 27.94 10.16 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "SN74LVC1G373DCKR"
-				(at -12.7 -16.7 0)
+			(property "Value" "SN74LVC1G80DBVR"
+				(at 27.94 7.62 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "SN74LVC1G373DCKR:SOT65P210X110-6N"
+			(property "Footprint" "DBV5"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.ti.com/lit/gpn/sn74lvc1g80"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
@@ -3765,202 +3764,167 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Texas Instruments"
+			(property "ki_locked" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
-					(hide yes)
 				)
 			)
-			(property "Description_1" "Single D-Type Latch with 3S Output"
+			(property "ki_keywords" "SN74LVC1G80DBVR"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Package" "SOT-SC70-6 Texas Instruments"
+			(property "ki_fp_filters" "DBV5 DBV5-M DBV5-L"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "SN74LVC1G80DBVR_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -10.16)
 					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SN74LVC1G373DCKR/Texas+Instruments/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "SN74LVC1G373DCKR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/SN74LVC1G373DCKR/Texas+Instruments/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "SN74LVC1G373DCKR_0_0"
-				(rectangle
-					(start -12.7 -12.7)
-					(end 12.7 12.7)
 					(stroke
-						(width 0.41)
+						(width 0.127)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 48.26 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 48.26 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 48.26 -10.16) (xy 48.26 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin input line
-					(at -17.78 5.08 0)
-					(length 5.08)
-					(name "~{OE}"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 2.54 0)
-					(length 5.08)
+					(at 0 0 0)
+					(length 7.62)
 					(name "D"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 0 0)
-					(length 5.08)
-					(name "LE"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at 17.78 10.16 180)
-					(length 5.08)
-					(name "VCC"
+				(pin input line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "CLK"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 5.08 180)
-					(length 5.08)
-					(name "Q"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -7.62 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 55.88 0 180)
+					(length 7.62)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 55.88 -2.54 180)
+					(length 7.62)
+					(name "*Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 55.88 -5.08 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -5076,7 +5040,7 @@
 	(text_box "SPI Buses"
 		(exclude_from_sim no)
 		(at 211.455 33.02 0)
-		(size 64.135 53.34)
+		(size 85.09 53.34)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -5262,7 +5226,7 @@
 		(uuid "5ac2bc84-10ed-4417-98ee-7f02aca5250a")
 	)
 	(junction
-		(at 269.24 62.23)
+		(at 283.21 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60ff1998-7c75-4ad5-b979-ebfc158c03c9")
@@ -5511,7 +5475,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 62.23) (xy 269.24 62.23)
+			(xy 273.05 69.85) (xy 283.21 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5608,6 +5572,16 @@
 			(type default)
 		)
 		(uuid "4c355879-2193-42c7-8ca1-49a90a28f1d2")
+	)
+	(wire
+		(pts
+			(xy 261.62 52.07) (xy 252.73 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e82f4ad-d62a-467f-a0b1-bd7859d59d9c")
 	)
 	(wire
 		(pts
@@ -6289,7 +6263,7 @@
 		)
 		(uuid "ffd9d059-1afe-40ea-b700-40bcbff14779")
 	)
-	(label "CSIN"
+	(label "CSOUT"
 		(at 48.26 52.07 180)
 		(effects
 			(font
@@ -6310,7 +6284,7 @@
 		(uuid "0733b512-07d6-49b1-a2c7-ad64d5bb2cc4")
 	)
 	(label "CSIN"
-		(at 223.52 69.85 180)
+		(at 217.17 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7000,7 +6974,7 @@
 		(uuid "be5139a2-e471-4045-bca6-9812c3d8b742")
 	)
 	(label "CSOUT"
-		(at 252.73 52.07 0)
+		(at 261.62 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7020,7 +6994,7 @@
 		(uuid "c8e182bd-f5a9-4955-9baf-08181334c2fc")
 	)
 	(label "CSOUT"
-		(at 259.08 67.31 0)
+		(at 273.05 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7120,7 +7094,7 @@
 		(uuid "fa067c40-03eb-4b32-b8e7-bc7ff15602db")
 	)
 	(label "CSCK"
-		(at 223.52 72.39 180)
+		(at 217.17 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7554,169 +7528,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SN74LVC1G373DCKR:SN74LVC1G373DCKR")
-		(at 241.3 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d4ac8d2-70d4-4e33-a207-50924a76e45c")
-		(property "Reference" "U103"
-			(at 241.3 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74LVC1G373DCKR"
-			(at 241.3 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Touchstone:SOT65P210X110-6N"
-			(at 241.3 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 241.3 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 241.3 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Single D-Type Latch with 3S Output"
-			(at 241.3 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOT-SC70-6 Texas Instruments"
-			(at 241.3 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 241.3 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SN74LVC1G373DCKR/Texas+Instruments/view-part/?ref=snap"
-			(at 241.3 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SN74LVC1G373DCKR"
-			(at 241.3 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 241.3 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SN74LVC1G373DCKR/Texas+Instruments/view-part/?ref=eda"
-			(at 241.3 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "7fe1df9c-7bee-4912-b861-90b0d924aaf7")
-		)
-		(pin "5"
-			(uuid "369c9a13-a444-43db-9bdc-afc748a9d6ec")
-		)
-		(pin "2"
-			(uuid "3df5e14d-2666-46b2-a54e-64805539c2bd")
-		)
-		(pin "1"
-			(uuid "28bf53a8-8349-44fa-8f68-1aafa5fd8e49")
-		)
-		(pin "3"
-			(uuid "020b1a93-ed4b-4546-b09a-be30c400f6d3")
-		)
-		(pin "4"
-			(uuid "37fc0217-0f34-4dec-8591-6c59991f4776")
-		)
-		(instances
-			(project ""
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "U103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
-		(at 269.24 64.77 0)
+		(at 283.21 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7725,7 +7538,7 @@
 		(fields_autoplaced yes)
 		(uuid "113b5013-cbe0-4412-9a65-ee591ba7454a")
 		(property "Reference" "C113"
-			(at 271.78 64.1413 0)
+			(at 285.75 71.7613 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7734,7 +7547,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 271.78 66.6813 0)
+			(at 285.75 74.3013 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7743,7 +7556,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 269.24 64.77 0)
+			(at 283.21 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7752,7 +7565,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 269.24 64.77 0)
+			(at 283.21 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7761,7 +7574,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 269.24 64.77 0)
+			(at 283.21 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7786,7 +7599,7 @@
 	(symbol
 		(lib_name "GND_4")
 		(lib_id "power:GND")
-		(at 269.24 67.31 0)
+		(at 283.21 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7795,7 +7608,7 @@
 		(fields_autoplaced yes)
 		(uuid "17b53445-aaba-430e-a850-606884db9260")
 		(property "Reference" "#PWR0138"
-			(at 269.24 73.66 0)
+			(at 283.21 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7804,7 +7617,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 269.24 72.39 0)
+			(at 283.21 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7812,7 +7625,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 67.31 0)
+			(at 283.21 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7821,7 +7634,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 67.31 0)
+			(at 283.21 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7830,7 +7643,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 67.31 0)
+			(at 283.21 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8269,6 +8082,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 261.62 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36924cfa-6d3b-4ab8-8530-d45986f36cd1")
+		(property "Reference" "R110"
+			(at 264.16 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 264.16 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 259.842 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "066fdcc2-1e23-40d1-af96-cbe81439a575")
+		)
+		(pin "2"
+			(uuid "f6b1cf23-64ef-4069-aa01-ad7304499f21")
+		)
+		(instances
+			(project "Hydra_Driver"
+				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
+					(reference "R110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
 		(at 78.74 153.67 0)
@@ -8407,7 +8289,7 @@
 	(symbol
 		(lib_name "+3.3V_1")
 		(lib_id "power:+3.3V")
-		(at 269.24 62.23 270)
+		(at 283.21 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8416,7 +8298,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e692b8e-96ff-499e-aeec-9ce6568f306c")
 		(property "Reference" "#PWR0135"
-			(at 265.43 62.23 0)
+			(at 279.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8425,7 +8307,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 273.05 62.2299 90)
+			(at 287.02 69.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8434,7 +8316,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 62.23 0)
+			(at 283.21 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8443,7 +8325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 62.23 0)
+			(at 283.21 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8452,7 +8334,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 269.24 62.23 0)
+			(at 283.21 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8667,6 +8549,85 @@
 			(project ""
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
 					(reference "#FLG0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SN74LVC1G80DBVR:SN74LVC1G80DBVR")
+		(at 217.17 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47228b13-9916-413b-a0a8-eaaf92fe6a5e")
+		(property "Reference" "U103"
+			(at 245.11 59.69 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SN74LVC1G80DBVR"
+			(at 245.11 62.23 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Touchstone:DBV5"
+			(at 217.17 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74lvc1g80"
+			(at 217.17 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "e278b867-df87-43a0-b849-60866e06d096")
+		)
+		(pin "1"
+			(uuid "f6925b29-b0f5-47a6-99fb-35622a9f8b4b")
+		)
+		(pin "4"
+			(uuid "e22c838d-07fc-44ac-85d6-9bb4985c930c")
+		)
+		(pin "2"
+			(uuid "c967a293-0f7e-4d28-a8b1-fe0ef6fbd7f7")
+		)
+		(pin "3"
+			(uuid "77729bc8-d41d-42a6-a8b4-0cf80d1c3a23")
+		)
+		(instances
+			(project ""
+				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
+					(reference "U103")
 					(unit 1)
 				)
 			)
@@ -10069,7 +10030,7 @@
 	(symbol
 		(lib_name "GND_4")
 		(lib_id "power:GND")
-		(at 259.08 80.01 90)
+		(at 273.05 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10078,7 +10039,7 @@
 		(fields_autoplaced yes)
 		(uuid "6caa8db9-89c5-4413-8588-c02ed8f87bdc")
 		(property "Reference" "#PWR0136"
-			(at 265.43 80.01 0)
+			(at 279.4 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10087,7 +10048,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 262.89 80.0099 90)
+			(at 276.86 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10096,7 +10057,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 80.01 0)
+			(at 273.05 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10105,7 +10066,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 80.01 0)
+			(at 273.05 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10114,7 +10075,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 80.01 0)
+			(at 273.05 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11489,6 +11450,73 @@
 		)
 	)
 	(symbol
+		(lib_name "+3.3V_1")
+		(lib_id "power:+3.3V")
+		(at 261.62 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae4597c1-1f10-4525-a71e-b4264d5003b3")
+		(property "Reference" "#PWR0123"
+			(at 261.62 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 261.62 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 261.62 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b115ef19-92f4-4bd8-b8ab-7aea8555e3f1")
+		)
+		(instances
+			(project "Hydra_Driver"
+				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 144.78 140.97 0)
 		(unit 1)
@@ -11683,73 +11711,6 @@
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
 					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 223.52 67.31 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3e9b810-051e-467b-89dc-f50495a7b3d0")
-		(property "Reference" "#PWR0123"
-			(at 217.17 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 219.71 67.3099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f39cb9fe-4dcc-4109-9649-efcbeb891eb8")
-		)
-		(instances
-			(project "Hydra_Driver"
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
