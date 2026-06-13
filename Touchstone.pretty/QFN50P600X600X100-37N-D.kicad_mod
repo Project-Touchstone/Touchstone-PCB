@@ -388,7 +388,7 @@
 		(uuid "1b9eba39-1015-4aa2-91e7-3fcbf6cb918d")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/carso/Documents/GitHub/Project-Touchstone/TouchstonePCB/DRV8313RHHR.step"
+	(model "C:/Users/carso/Documents/GitHub/Project-Touchstone/Touchstone-PCB/models/DRV8313RHHR.step"
 		(offset
 			(xyz 0 0 0)
 		)

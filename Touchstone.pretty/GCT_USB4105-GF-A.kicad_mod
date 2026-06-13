@@ -336,18 +336,7 @@
 		(uuid "57082740-c3e9-405f-a60e-17d3107386cb")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/carso/Documents/GitHub/Project-Touchstone/TouchstonePCB/USB4105-GF-A.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -90 -0 -0)
-		)
-	)
-	(model "C:/Users/carso/Documents/GitHub/Project-Touchstone/Touchstone-PCB/USB4105-GF-A.step"
+	(model "C:/Users/carso/Documents/GitHub/Project-Touchstone/Touchstone-PCB/models/USB4105-GF-A.step"
 		(offset
 			(xyz 0 0 0)
 		)

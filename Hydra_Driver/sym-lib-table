@@ -5,4 +5,6 @@
   (lib (name "Touchstone")(type "KiCad")(uri "C:/Users/carso/Documents/GitHub/Project-Touchstone/TouchstonePCB/Touchstone.kicad_sym")(options "")(descr ""))
   (lib (name "TacTile")(type "KiCad")(uri "C:/Users/carso/Documents/GitHub/Project-Touchstone/TouchstonePCB/TacTile.kicad_sym")(options "")(descr ""))
   (lib (name "USB4105-GF-A")(type "KiCad")(uri "C:/Users/carso/Documents/GitHub/Project-Touchstone/TouchstonePCB/USB4105-GF-A.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74LVC1G373DCKR")(type "KiCad")(uri "C:/Users/carso/Documents/GitHub/Project-Touchstone/Touchstone-PCB/symbols/SN74LVC1G373DCKR.kicad_sym")(options "")(descr ""))
+  (lib (name "INA4181A2IPWR")(type "KiCad")(uri "C:/Users/carso/Documents/GitHub/Project-Touchstone/Touchstone-PCB/symbols/INA4181A2IPWR.kicad_sym")(options "")(descr ""))
 )

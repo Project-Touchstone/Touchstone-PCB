@@ -543,7 +543,7 @@
 		(uuid "c4e9b8a3-1937-455a-ac2b-8ba91e6d04bc")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/carso/Documents/GitHub/Project-Touchstone/TouchstonePCB/SOT-23-5_MC_MCH.step"
+	(model "C:/Users/carso/Documents/GitHub/Project-Touchstone/Touchstone-PCB/models/SOT-23-5_MC_MCH.step"
 		(offset
 			(xyz 0 0 0)
 		)

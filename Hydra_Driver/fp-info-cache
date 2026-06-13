@@ -1,4 +1,4 @@
-26447287559415745
+26449258111643274
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -103978,6 +103978,20 @@ test point THT pad
 1
 1
 Touchstone
+AMASS_XT30U-F_1x02_P5.0mm_Vertical
+Connector XT30 Vertical Cable Female, https://www.tme.eu/Document/f2d0830114aabe6ea8d4bb128e962790/XT30U-F.pdf
+RC Connector XT30
+0
+2
+2
+Touchstone
+CONN_CCSH-W10R-04TR-BK-A_ADA
+
+4208 
+0
+6
+6
+Touchstone
 ES2A-L Diode
 
 
@@ -103991,13 +104005,6 @@ Integrated Circuit
 0
 49
 49
-Touchstone
-Flex2Driver
-
-
-0
-7
-7
 Touchstone
 GCT_USB4105-GF-A
 
@@ -104020,26 +104027,12 @@ Mounting_Hole3,5
 0
 0
 Touchstone
-PEST_Mouse_Bites
+PW20_TEX
 
-
+INA4181A2IPWR 
 0
-0
-0
-Touchstone
-PEST_SMD
-
-
-0
-2
-2
-Touchstone
-PEST_Tile
-
-
-0
-2
-2
+20
+20
 Touchstone
 QFN50P600X600X100-37N-D
 RHH (S-PVQFN-N36)_1
@@ -104068,6 +104061,20 @@ MIC5504-3.3YM5-TR
 0
 5
 5
+Touchstone
+SOT65P210X110-6N
+
+
+0
+6
+6
+Touchstone
+SW_B3U-1000P
+
+
+0
+2
+2
 Touchstone
 logo
 
