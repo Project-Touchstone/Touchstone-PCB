@@ -4248,7 +4248,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Touchstone:PW20_TEX"
+		(property "Footprint" "Touchscape:PW20_TEX"
 			(at 96.52 140.97 0)
 			(effects
 				(font
@@ -6400,7 +6400,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Touchstone:QFN50P600X600X100-37N-D"
+		(property "Footprint" "Touchscape:QFN50P600X600X100-37N-D"
 			(at 110.49 135.56 0)
 			(effects
 				(font

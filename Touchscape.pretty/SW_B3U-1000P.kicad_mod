@@ -267,7 +267,7 @@
 		(uuid "e9dc3638-321f-4007-a006-e5279de8964a")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/carso/Documents/GitHub/Project-Touchstone/Touchstone-PCB/models/B3U-1000P.step"
+	(model "C:/Users/carso/Documents/GitHub/Project-Touchscape/Touchscape-PCB/models/B3U-1000P.step"
 		(offset
 			(xyz 0 0 0)
 		)

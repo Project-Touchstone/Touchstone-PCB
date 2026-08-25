@@ -221,7 +221,7 @@
 		(uuid "ae468a84-5674-4593-a7c5-ad355133e5d0")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/carso/Documents/GitHub/Project-Touchstone/Touchstone-PCB/models/SN74LVC1G373DCKR.step"
+	(model "C:/Users/carso/Documents/GitHub/Project-Touchscape/Touchscape-PCB/models/SN74LVC1G373DCKR.step"
 		(offset
 			(xyz 0 0 0)
 		)

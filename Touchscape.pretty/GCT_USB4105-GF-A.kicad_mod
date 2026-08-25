@@ -336,7 +336,7 @@
 		(uuid "57082740-c3e9-405f-a60e-17d3107386cb")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/carso/Documents/GitHub/Project-Touchstone/Touchstone-PCB/models/USB4105-GF-A.step"
+	(model "C:/Users/carso/Documents/GitHub/Project-Touchscape/Touchscape-PCB/models/USB4105-GF-A.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -643,7 +643,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x06"
+		(symbol "Connector_Generic:Conn_01x07"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -652,14 +652,14 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 7.62 0)
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x06"
+			(property "Value" "Conn_01x07"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -685,7 +685,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -712,9 +712,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x06_1_1"
+			(symbol "Conn_01x07_1_1"
 				(rectangle
-					(start -1.27 6.35)
+					(start -1.27 8.89)
 					(end 1.27 -8.89)
 					(stroke
 						(width 0.254)
@@ -722,6 +722,17 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(rectangle
@@ -791,7 +802,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -809,7 +820,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -827,7 +838,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -845,7 +856,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -863,7 +874,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -881,7 +892,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -891,6 +902,24 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5037,10 +5066,10 @@
 		)
 		(uuid "d80bb426-7018-4cfc-a1fa-0e1fe1f4bb44")
 	)
-	(text_box "SPI Buses"
+	(text_box "SPI Daisy Chain"
 		(exclude_from_sim no)
 		(at 211.455 33.02 0)
-		(size 85.09 53.34)
+		(size 77.47 53.34)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -5205,7 +5234,7 @@
 		(at 224.79 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "54f8c04b-2872-44e4-bdfc-0de37f578ea5")
+		(uuid "53cfa60d-c793-418c-9b85-7727ad27a7a5")
 	)
 	(junction
 		(at 38.1 26.67)
@@ -5298,12 +5327,6 @@
 		(uuid "80a46bda-6be1-4e1a-bc1b-475639170838")
 	)
 	(junction
-		(at 224.79 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82502469-8f86-4dea-ae3a-826d74067e2f")
-	)
-	(junction
 		(at 101.6 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5320,6 +5343,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc45b071-55da-4b40-9d01-496b32c9cd8f")
+	)
+	(junction
+		(at 224.79 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccdaea64-939a-43d9-b8b1-3113c375dcca")
 	)
 	(junction
 		(at 59.69 160.02)
@@ -5392,6 +5421,16 @@
 	(no_connect
 		(at 48.26 41.91)
 		(uuid "e53bc86d-57ed-450a-8a58-e3de7ff5f0f7")
+	)
+	(wire
+		(pts
+			(xy 224.79 54.61) (xy 236.22 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "004005b1-c96a-460c-a317-1e923810fca3")
 	)
 	(wire
 		(pts
@@ -5572,16 +5611,6 @@
 			(type default)
 		)
 		(uuid "4c355879-2193-42c7-8ca1-49a90a28f1d2")
-	)
-	(wire
-		(pts
-			(xy 261.62 52.07) (xy 252.73 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e82f4ad-d62a-467f-a0b1-bd7859d59d9c")
 	)
 	(wire
 		(pts
@@ -6263,7 +6292,7 @@
 		)
 		(uuid "ffd9d059-1afe-40ea-b700-40bcbff14779")
 	)
-	(label "CSOUT"
+	(label "CSIN"
 		(at 48.26 52.07 180)
 		(effects
 			(font
@@ -6294,7 +6323,7 @@
 		(uuid "0c6bf72b-7b99-48f1-8764-e99a99527896")
 	)
 	(label "CLK"
-		(at 252.73 49.53 0)
+		(at 252.73 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6354,7 +6383,7 @@
 		(uuid "1e4829c2-3532-4f49-8958-19eacc32e2ab")
 	)
 	(label "CSCK"
-		(at 224.79 54.61 0)
+		(at 224.79 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6374,7 +6403,7 @@
 		(uuid "22032a4a-a3c5-444b-8701-891f7716371c")
 	)
 	(label "CSIN"
-		(at 224.79 52.07 0)
+		(at 224.79 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6583,6 +6612,16 @@
 		)
 		(uuid "5473d19f-23dd-430f-94b4-e176ae18e7fa")
 	)
+	(label "MOSI"
+		(at 252.73 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55cf3717-f011-4d80-86af-386bd7157c0a")
+	)
 	(label "IN1A"
 		(at 109.22 68.58 180)
 		(effects
@@ -6594,7 +6633,7 @@
 		(uuid "593f505a-3ae1-440d-99ba-a65f82193347")
 	)
 	(label "CSCK"
-		(at 252.73 54.61 0)
+		(at 252.73 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6634,7 +6673,7 @@
 		(uuid "626ff896-2d83-4007-9c47-b6e41feb35d9")
 	)
 	(label "MISO"
-		(at 252.73 46.99 0)
+		(at 252.73 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6843,6 +6882,16 @@
 		)
 		(uuid "94f4d1d5-3697-4cd3-ab33-64fa86fbc6c1")
 	)
+	(label "MISO"
+		(at 224.79 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "969c8c0e-f06f-46eb-baa5-e6516628a944")
+	)
 	(label "OUT3A"
 		(at 142.24 85.09 0)
 		(effects
@@ -6974,7 +7023,7 @@
 		(uuid "be5139a2-e471-4045-bca6-9812c3d8b742")
 	)
 	(label "CSOUT"
-		(at 261.62 52.07 0)
+		(at 252.73 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7104,7 +7153,7 @@
 		(uuid "fd28a91e-112c-45a7-8631-0bd41bf6783f")
 	)
 	(label "CLK"
-		(at 224.79 49.53 0)
+		(at 224.79 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7375,86 +7424,6 @@
 			(project ""
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
 					(reference "#PWR0126")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 219.71 49.53 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c284f8b-612e-47c1-b85c-af423243699c")
-		(property "Reference" "J103"
-			(at 219.71 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x06"
-			(at 219.71 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal"
-			(at 219.71 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 219.71 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "4e7d3b80-5765-4d96-bbd5-48cccf0eed60")
-		)
-		(pin "2"
-			(uuid "c393b714-58fa-4f6a-b9f9-dda4c0735422")
-		)
-		(pin "1"
-			(uuid "fccdebed-f503-471f-8811-eca82986b580")
-		)
-		(pin "3"
-			(uuid "30d4e566-536c-4421-acf3-4876b3dbaa33")
-		)
-		(pin "5"
-			(uuid "d82effb3-a290-4e10-ac53-4ce3b1fbbad2")
-		)
-		(pin "6"
-			(uuid "8625c95e-3481-4092-aea9-fac8e5a51fe0")
-		)
-		(instances
-			(project ""
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "J103")
 					(unit 1)
 				)
 			)
@@ -8028,7 +7997,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Touchstone:SOT-23-5_MC_MCH"
+		(property "Footprint" "Touchscape:SOT-23-5_MC_MCH"
 			(at 157.48 140.97 0)
 			(effects
 				(font
@@ -8083,7 +8052,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 261.62 48.26 0)
+		(at 236.22 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8092,7 +8061,7 @@
 		(fields_autoplaced yes)
 		(uuid "36924cfa-6d3b-4ab8-8530-d45986f36cd1")
 		(property "Reference" "R110"
-			(at 264.16 47.625 0)
+			(at 238.76 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8101,7 +8070,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 264.16 50.165 0)
+			(at 238.76 52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8110,7 +8079,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 259.842 48.26 90)
+			(at 234.442 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8119,7 +8088,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 48.26 0)
+			(at 236.22 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8128,7 +8097,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 261.62 48.26 0)
+			(at 236.22 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8580,7 +8549,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Touchstone:DBV5"
+		(property "Footprint" "Touchscape:DBV5"
 			(at 217.17 69.85 0)
 			(effects
 				(font
@@ -8995,7 +8964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Touchstone:GCT_USB4105-GF-A"
+		(property "Footprint" "Touchscape:GCT_USB4105-GF-A"
 			(at 39.37 157.48 0)
 			(effects
 				(font
@@ -9350,6 +9319,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x07")
+		(at 247.65 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5964a8a6-0c63-42e4-b228-55adef49902a")
+		(property "Reference" "J110"
+			(at 247.65 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x07"
+			(at 247.65 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Horizontal"
+			(at 247.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 247.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "61c38a81-3f06-4035-9a12-2ab680429e87")
+		)
+		(pin "1"
+			(uuid "30df73f9-20f6-4d0e-933a-dcc309de615e")
+		)
+		(pin "2"
+			(uuid "b80a47bc-c69f-4334-86d8-f0ee1f0b64a4")
+		)
+		(pin "3"
+			(uuid "231243a0-8205-4810-b3a2-408dfcba5fa1")
+		)
+		(pin "4"
+			(uuid "c76d5e70-8bcc-4d62-b34b-732d53ace5ec")
+		)
+		(pin "5"
+			(uuid "dfb3fe78-b4c7-468b-9fda-8430e6f01f52")
+		)
+		(pin "6"
+			(uuid "0d57279a-1fb6-4c37-954c-be89f3befdcd")
+		)
+		(instances
+			(project ""
+				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
+					(reference "J110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 224.79 41.91 0)
 		(unit 1)
@@ -9687,7 +9739,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Touchstone:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+		(property "Footprint" "Touchscape:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
 			(at 218.44 21.59 0)
 			(effects
 				(font
@@ -10190,7 +10242,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Touchstone:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+		(property "Footprint" "Touchscape:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
 			(at 273.05 21.59 0)
 			(effects
 				(font
@@ -11273,7 +11325,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Touchstone:SW_B3U-1000P"
+		(property "Footprint" "Touchscape:SW_B3U-1000P"
 			(at 114.3 33.02 0)
 			(effects
 				(font
@@ -11452,7 +11504,7 @@
 	(symbol
 		(lib_name "+3.3V_1")
 		(lib_id "power:+3.3V")
-		(at 261.62 44.45 0)
+		(at 236.22 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11461,7 +11513,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae4597c1-1f10-4525-a71e-b4264d5003b3")
 		(property "Reference" "#PWR0123"
-			(at 261.62 48.26 0)
+			(at 236.22 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11470,7 +11522,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 261.62 39.37 0)
+			(at 236.22 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11478,7 +11530,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 44.45 0)
+			(at 236.22 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11487,7 +11539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 44.45 0)
+			(at 236.22 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11496,7 +11548,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 261.62 44.45 0)
+			(at 236.22 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11744,7 +11796,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Touchstone:CONN_CCSH-W10R-04TR-BK-A_ADA"
+		(property "Footprint" "Touchscape:CONN_CCSH-W10R-04TR-BK-A_ADA"
 			(at 229.87 93.98 0)
 			(effects
 				(font
@@ -12482,7 +12534,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Touchstone:ESP32S3WROOM1N4"
+		(property "Footprint" "Touchscape:ESP32S3WROOM1N4"
 			(at 77.47 129.21 0)
 			(effects
 				(font
@@ -12764,7 +12816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Touchstone:CONN_CCSH-W10R-04TR-BK-A_ADA"
+		(property "Footprint" "Touchscape:CONN_CCSH-W10R-04TR-BK-A_ADA"
 			(at 257.81 93.98 0)
 			(effects
 				(font
@@ -12807,86 +12859,6 @@
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
 					(reference "J107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 247.65 49.53 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ddc32232-5c6f-403a-82b4-21a171eb0516")
-		(property "Reference" "J106"
-			(at 247.65 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x06"
-			(at 247.65 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal"
-			(at 247.65 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.65 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 247.65 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "75422da7-8dca-4751-ad66-66f8fc18d855")
-		)
-		(pin "2"
-			(uuid "9377f3d8-a25a-44ac-959d-5de5c06434bc")
-		)
-		(pin "1"
-			(uuid "4876b0e6-4b16-41b9-a7cd-e983107331d0")
-		)
-		(pin "3"
-			(uuid "c8f5a5c7-fa91-4f63-afe1-07afb463ab98")
-		)
-		(pin "5"
-			(uuid "75b3b1ca-c261-4ee6-bbcf-1e9b2ec6fa83")
-		)
-		(pin "6"
-			(uuid "d3f052f8-7e20-484b-8601-8f3a5e1a61ba")
-		)
-		(instances
-			(project "DRIFT_Driver"
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "J106")
 					(unit 1)
 				)
 			)
@@ -12954,6 +12926,89 @@
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x07")
+		(at 219.71 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1caa94f-3104-4dd5-833c-376b14ed7471")
+		(property "Reference" "J103"
+			(at 219.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x07"
+			(at 219.71 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Horizontal"
+			(at 219.71 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 219.71 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "a77ed54c-77d4-4a7b-9773-77caba61abe0")
+		)
+		(pin "1"
+			(uuid "246d7fb6-bd08-4998-b693-d9ff6eec2e3b")
+		)
+		(pin "2"
+			(uuid "80f4d966-4356-42eb-bc79-2787a56b2ba4")
+		)
+		(pin "3"
+			(uuid "05b6c740-2386-4b43-8823-5cb1a4ff1c78")
+		)
+		(pin "4"
+			(uuid "39082c46-061c-4928-9f33-20f914bf04b2")
+		)
+		(pin "5"
+			(uuid "e24347b6-9e71-488f-a589-0831af450c6c")
+		)
+		(pin "6"
+			(uuid "89974475-57dd-49dd-892f-4ca3d188e84d")
+		)
+		(instances
+			(project "Hydra_Driver"
+				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
+					(reference "J103")
 					(unit 1)
 				)
 			)
@@ -13492,7 +13547,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Touchstone:SW_B3U-1000P"
+		(property "Footprint" "Touchscape:SW_B3U-1000P"
 			(at 154.94 33.02 0)
 			(effects
 				(font

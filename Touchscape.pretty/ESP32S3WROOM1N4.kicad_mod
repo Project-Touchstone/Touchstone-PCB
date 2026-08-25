@@ -551,7 +551,7 @@
 		(uuid "439981f7-0be0-45af-9de1-345b5c6b178f")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/carso/Documents/GitHub/Project-Touchstone/Touchstone-PCB/models/ESP32-S3-WROOM-1-N4.step"
+	(model "C:/Users/carso/Documents/GitHub/Project-Touchscape/Touchscape-PCB/models/ESP32-S3-WROOM-1-N4.step"
 		(offset
 			(xyz 0 0 0)
 		)

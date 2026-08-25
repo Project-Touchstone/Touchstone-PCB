@@ -1247,7 +1247,7 @@
 		(uuid "10ab6e41-89a0-48e1-8678-7e9dcfb089a0")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/carso/Documents/GitHub/Project-Touchstone/Touchstone-PCB/models/PW0020A.stp"
+	(model "C:/Users/carso/Documents/GitHub/Project-Touchscape/Touchscape-PCB/models/PW0020A.stp"
 		(offset
 			(xyz 0 0 0)
 		)
