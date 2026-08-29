@@ -3132,7 +3132,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Touchstone:CONN_CCSH-W10R-04TR-BK-A_ADA"
+		(property "Footprint" "Touchscape:CONN_CCSH-W10R-04TR-BK-A_ADA"
 			(at 120.65 36.83 0)
 			(effects
 				(font

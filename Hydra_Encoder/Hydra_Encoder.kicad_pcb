@@ -758,7 +758,7 @@
 			)
 		)
 	)
-	(footprint "Touchstone:CONN_CCSH-W10R-04TR-BK-A_ADA"
+	(footprint "Touchscape:CONN_CCSH-W10R-04TR-BK-A_ADA"
 		(layer "F.Cu")
 		(uuid "11e24543-0687-4a62-a39f-f0fd132c24b0")
 		(at 0 12)
@@ -824,7 +824,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "45f3194d-5ee4-44a9-92a2-afd88e098b34")
+			(uuid "2e072d20-a4cd-400d-a4d9-1c2a825aae45")
 		)
 		(fp_line
 			(start -2.13754 -2.6035)
@@ -834,7 +834,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a00de95f-f6b3-4700-97b3-c1a8f60d2d24")
+			(uuid "aa98ff2d-0e68-4f60-894a-c934d742c1fe")
 		)
 		(fp_line
 			(start -1.870359 2.603499)
@@ -844,7 +844,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b6bb7706-eeee-4a79-b17b-9c5ef6648a57")
+			(uuid "75e1f766-7e34-4182-9927-b5981819ad10")
 		)
 		(fp_line
 			(start 3.1242 -2.6035)
@@ -854,7 +854,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "65dbb310-30a2-4a9b-af23-ab92e968b8b5")
+			(uuid "2facc630-5176-437f-b9e2-afa388f55f97")
 		)
 		(fp_line
 			(start 3.1242 0.539059)
@@ -864,7 +864,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0054dc43-e6b7-49f6-8115-5887112e6d09")
+			(uuid "81e15685-37a8-410f-bf22-6d473aa58e31")
 		)
 		(fp_circle
 			(center -4.9022 -2.0515)
@@ -875,7 +875,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "28cde2cf-3313-4f8e-a870-d29b0c1ccd8d")
+			(uuid "3cf3e6a8-8a51-493d-a5ba-a892eaaf84f1")
 		)
 		(fp_circle
 			(center -4.9022 -2.0515)
@@ -886,7 +886,7 @@
 			)
 			(fill no)
 			(layer "B.SilkS")
-			(uuid "2e6cfe7f-352d-453a-8c20-e9ea1da940a2")
+			(uuid "1b120369-235c-4a27-9c72-76b53ca743d0")
 		)
 		(fp_line
 			(start -3.6509 -3.0802)
@@ -896,7 +896,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "567a5d42-cae5-4922-a370-e2c4ba4280b4")
+			(uuid "4ffc3d2a-fcc1-4889-b4db-739f981e819a")
 		)
 		(fp_line
 			(start -3.6509 2.929199)
@@ -906,7 +906,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "4b07b370-bdfa-4161-94e8-66bbd32a74d9")
+			(uuid "14097773-3e04-4798-b526-c298823397a5")
 		)
 		(fp_line
 			(start 3.6509 -3.0802)
@@ -916,7 +916,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "6c875fd0-1b0a-412b-84ff-c076b33e97f5")
+			(uuid "471199e5-4dd3-4447-8594-1ce3cf35020d")
 		)
 		(fp_line
 			(start 3.6509 2.929199)
@@ -926,7 +926,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "dbddc4d7-b2ae-4b2b-9f76-02b209b5dc48")
+			(uuid "bbda6747-701d-4973-aacc-c33a3e2fd3d2")
 		)
 		(fp_line
 			(start -2.9972 -2.4765)
@@ -936,7 +936,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "531bb5fb-49e0-4a02-9072-bce1219e249f")
+			(uuid "32f0e957-9703-4e9f-894f-caddb1644d54")
 		)
 		(fp_line
 			(start -2.9972 2.476499)
@@ -946,7 +946,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "92819c46-e9b3-43eb-8a23-c9b9b5bbb847")
+			(uuid "7dd4f56b-1519-4ad2-acb1-49fb7b0b3a66")
 		)
 		(fp_line
 			(start 2.9972 -2.4765)
@@ -956,7 +956,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "775cf9f7-76fd-475f-8029-f40890ade48b")
+			(uuid "1bb3c3fa-ac6a-4225-acb4-f762641b0363")
 		)
 		(fp_line
 			(start 2.9972 2.476499)
@@ -966,7 +966,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "64ba26c9-446f-4965-ae08-5d0246be82bc")
+			(uuid "a48f708e-ff78-474a-94d5-7f7f48590ff0")
 		)
 		(fp_circle
 			(center -1.5 -3.9565)
@@ -977,7 +977,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "f475780a-a971-416b-80c6-52d7d93c54b6")
+			(uuid "c4a66aa9-9a8a-4bd6-a942-8922913698ac")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2.0515 0)
@@ -1040,7 +1040,7 @@
 			(uuid "1c1ef3ea-4dad-4250-af78-d461a49a753b")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/carso/Documents/GitHub/Project-Touchstone/Touchstone-PCB/models/JST-XS-1x4-H.step"
+		(model "C:/Users/carso/Documents/GitHub/Project-Touchscape/Touchscape-PCB/models/JST-XS-1x4-H.step"
 			(offset
 				(xyz 0 0 0)
 			)
