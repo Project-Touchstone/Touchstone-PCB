@@ -3451,7 +3451,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "10"
 			(at 59.69 129.54 90)
 			(effects
 				(font
@@ -3667,7 +3667,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "22n"
 			(at 68.58 172.7135 0)
 			(effects
 				(font
@@ -3810,7 +3810,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "10"
 			(at 59.69 172.72 90)
 			(effects
 				(font
@@ -4240,7 +4240,7 @@
 				)
 			)
 		)
-		(property "Value" "INA4181A2IPWR"
+		(property "Value" "INA4181A3IPWR"
 			(at 116.84 133.35 0)
 			(effects
 				(font
@@ -4586,7 +4586,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "10"
 			(at 59.69 162.56 90)
 			(effects
 				(font
@@ -4658,7 +4658,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "22n"
 			(at 68.58 151.1235 0)
 			(effects
 				(font
@@ -4946,7 +4946,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "10"
 			(at 59.69 140.97 90)
 			(effects
 				(font
@@ -6177,7 +6177,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "10"
 			(at 59.69 119.38 90)
 			(effects
 				(font
@@ -6783,7 +6783,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "10"
 			(at 59.69 151.13 90)
 			(effects
 				(font
@@ -6997,7 +6997,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "22n"
 			(at 68.58 129.5335 0)
 			(effects
 				(font
